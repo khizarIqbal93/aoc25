@@ -9,32 +9,26 @@ import (
 
 func TestValidV2(t *testing.T) {
 	cases := []struct {
-		name     string
 		input    int
 		expected bool
 	}{
 		{
-			name:     "simple",
 			input:    11,
 			expected: false,
 		},
 		{
-			name:     "simple",
 			input:    222222,
 			expected: false,
 		},
 		{
-			name:     "simple",
 			input:    1188511885,
 			expected: false,
 		},
 		{
-			name:     "simple",
 			input:    824824824,
 			expected: false,
 		},
 		{
-			name:     "cuh",
 			input:    2121212121,
 			expected: false,
 		},
