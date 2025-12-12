@@ -27,7 +27,6 @@ func main() {
 			}
 
 		}
-		fmt.Println(maxJoltage)
 		res += maxJoltage
 	}
 
